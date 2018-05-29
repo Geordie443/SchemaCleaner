@@ -8,7 +8,7 @@ newList = File.read!(fileName)
 |> String.replace(~r/(\n)/,",\n")
 |> String.replace(~r/(\n)/,"\n:")
 
-listHiddenFields = ":" <> newList <> ","
+listHiddenFields = ":" <> newList
 listFields = String.replace(listHiddenFields, ~r/(")/,"")
 
 
