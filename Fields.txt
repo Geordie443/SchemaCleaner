@@ -4,50 +4,32 @@
 ​
 2: "username"
 ​
+3: "emails"
+​
+4: "registered_emails"
+​
+5: "profile"
+​
+6: "services"
+​
+7: "extra_data"
+​
+8: "api"
+​
 9: "roles"
 ​
-10: "orgIdParents"
-​
-11: "notes"
-​
-12: "heartbeat"
-​
-13: "deleted"
-​
-14: "registered_emails.$.label"
-​
-15: "registered_emails.$.address"
-
-17: "registered_emails.$.verified"
-​
-23: "profile.agreed"
-​
-24: "profile.agreedTOSVersion"
-​
-25: "profile.agreeBypass"
-​
-26: "profile.brandOrgId"
-​
-27: "profile.mapcenter"
-​
-28: "profile.mapcenter.lat"
-
-32: "profile.phones.$.verified"
-​
-33: "profile.phones.$.sms"
-​
-34: "profile.phones.$"
-​
-35: "api.on"
-​
-36: "api.created"
-​
-37: "api.key"
-​
-38: "api.secret"
-​
-39: "notes.$.created"
-​
 40: "notes.$.authorUserId"
+​
+41: "notes.$.authorName"
+​
+42: "notes.$.subject"
+​
+43: "notes.$.body"
+​
+44: "emails.$"
+​
+45: "registered_emails.$"
+​
+46: "orgIdParents.$"
 ​
 47: "notes.$"
