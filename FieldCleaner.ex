@@ -34,10 +34,15 @@ collection =
   |> String.slice(0..-2)
 
 fileOut = collection <> "_#{listlen}_Fields_Cleaned.txt"
+directory = "Cleaned_Fields"
 IO.puts("Cleaning Complete !")
 IO.puts("#{listlen} Schema Fields Cleaned\n")
 # output the cleaned list  to file
-File.write(fileOut, cleanList)
+unless File.exists?(directory) do
+  File.mkdir!(directory)
+end
+
+File.write(directory <> "/" <> fileOut, cleanList)
 
 # ----------------------------------------------------------------------------------
 
