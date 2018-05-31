@@ -4,6 +4,8 @@ newList =
   File.read!(fileName)
   # get rid of dollar sign
   |> String.replace(".$", "")
+  # remove 3 digit numbers followed by colon and space
+  |> String.replace(~r/(\d{3})(\: )/, "")
   # remove 2 digit numbers followed by colon and space
   |> String.replace(~r/(\d{2})(\: )/, "")
   # remove 1 digit numbers followed by colon and space
